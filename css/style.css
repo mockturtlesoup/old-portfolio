@@ -1,3 +1,13 @@
+@font-face {
+      font-family: "Coves";
+      src: url("CovesLight.otf");
+    }
+
+ @font-face {
+      font-family: "Coves2";
+      src: url("CovesBold.otf");
+    }   
+
 /*Background*/
 
 html {
@@ -113,15 +123,16 @@ h4{
     font-family: 'Poiret One', sans-serif;
     font-size: 1.35em;
     font-weight: 700;
-    color: #333;
+    color: #333333;
 }
 
 
 p{
-    font-family: 'Biryani', sans-serif;
-    font-weight: 200;
-    font-size: 1.05em;
-    color: #121212;
+    font-family: 'Coves', sans-serif;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 1.25em;
+    color: #141414;
 }
 
 .contact {
