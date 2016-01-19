@@ -1,0 +1,2 @@
+.thumbnail {-webkit-filter: grayscale(100%);}
+.thumbnail:hover {-webkit-filter: hue-rotate(180deg);}

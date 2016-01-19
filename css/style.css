@@ -1,0 +1,181 @@
+/*Background*/
+
+html {
+    background: url("../img/paper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    padding: 0;
+    padding-bottom: 7%;
+    max-width: inherit;
+    overflow-x: hidden;
+}
+
+/* grid */
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display: inline-table;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix*/
+    margin-right:-4px;
+}
+
+.thumbnails {
+    padding-top: 5%;
+}
+
+.project-desktop {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.project-tablet {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mobile-item{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.description
+{
+    vertical-align: top;
+}
+
+.description-mobile {
+    padding: 7% 0 3% 0;
+}
+
+.project-desktop img, .project-mobile img, .project-tablet img
+{
+    padding-bottom: 1em;
+}
+
+.visible-xs {max-width: 600px}
+/*Fonts etc*/
+
+.header-desktop {
+    padding: 5% 13% 0 5%;
+    text-align: right;
+    }
+
+.header-tablet {
+    padding: 5% 7% 0 5%;
+    text-align: right;
+}
+
+.header-mobile {
+    text-align: right;
+    padding: 5% 0 5% 0;
+}
+
+h1{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 600;
+    font-size: 5.5em;
+    color: #000000;
+    opacity: 0.5;
+   }
+
+
+h2{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 600;
+    font-size: 3.3em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+h3{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333333;
+}
+
+h4{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+
+
+p{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #080808 ;
+}
+
+.contact {
+    font-size: 1em;
+}
+
+.label{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 600;
+    }
+
+
+.btn{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 600;
+}
+
+footer{
+    text-align: center;
+    padding-top: 7%;
+}
+
+/*Text sizing*/
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    h1 {font-size: 4.583em}
+    h2 {font-size: 2.75em; margin-top: 15px;}
+    h3 {font-size: 1.25em}
+    .label {font-size: 90%}
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    h1 {font-size: 3.819em}
+    h2 {font-size: 2.292em; margin-top: 15px;}
+    h3 {font-size: 1.042em}
+    .label {font-size: 80%}
+}
+
+@media (max-width: 768px) {
+    h1 {font-size: 3.183em}
+    h2 {font-size: 1.91em; margin-top: 10px;}
+}
+/*
+@media (max-width: 400px) {
+    h1 {font-size: 3.3em}
+    h2 {font-size: 2em; margin-top: 10px;}
+}
+/*hover blur*/
+.thumbnail:hover {-webkit-filter: hue-rotate(180deg);}
+
+
+/*transition*/
+body {
+    -webkit-animation:fadein 0.7s;
+    animation:fadein 0.7s ease both;
+}
+@-webkit-keyframes fadein { from {opacity:0} to {opacity:1} }
+@keyframes fadein { from {opacity:0} to {opacity:1} }
