@@ -1,12 +1,7 @@
 @font-face {
       font-family: "Coves";
       src: url("CovesLight.otf");
-    }
-
- @font-face {
-      font-family: "Coves2";
-      src: url("CovesBold.otf");
-    }   
+    } 
 
 /*Background*/
 
@@ -128,7 +123,7 @@ h4{
 
 
 p{
-    font-family: 'Coves', sans-serif;
+    font-family: 'Coves', 'Poiret One', sans-serif;
     font-weight: 400;
     line-height: 1.2em;
     font-size: 1.25em;
